@@ -50,8 +50,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return FarmerRoute();
-    /* return SignUp(
+    // return FarmerRoute();
+    return SignUp(
       formKey: _formKey,
       autoValidateMode: _autoValidateMode,
       onPressed: () {
@@ -74,6 +74,6 @@ class _MyHomePageState extends State<MyHomePage> {
           });
         }
       },
-    ); */
+    );
   }
 }
