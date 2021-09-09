@@ -13,10 +13,8 @@ class ShopDetail extends StatelessWidget {
       appBar: AppBar(
         title: Text(shop.name),
       ),
-      body: Column(
+      body: ListView(
         children: [
-          ShopSupplies(),
-          ShopSupplies(),
           ShopSupplies(),
         ],
       ),
